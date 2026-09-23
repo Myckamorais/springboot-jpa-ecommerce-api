@@ -1,7 +1,6 @@
 package com.myckael.ecommerce_api.entities;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.myckael.ecommerce_api.entities.enums.OrderStatus;
 import jakarta.persistence.*;
 
