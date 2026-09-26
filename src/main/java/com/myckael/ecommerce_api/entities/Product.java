@@ -2,6 +2,7 @@ package com.myckael.ecommerce_api.entities;
 
 import jakarta.persistence.*;
 
+import java.io.Serial;
 import java.io.Serializable;
 import java.util.HashSet;
 import java.util.Objects;
@@ -11,6 +12,7 @@ import java.util.Set;
 @Table(name = "tb_products")
 public class Product implements Serializable {
 
+    @Serial
     private static final long serialVersionUID = 1L;
 
     @Id
